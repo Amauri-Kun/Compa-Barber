@@ -1,0 +1,179 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(15, 32, 89, 0.85); /* Azul Oscuro con opacidad */
+    color: rgba(240, 240, 235, 0.95); /* Blanco Crema con opacidad */
+}
+
+/* Estilos del header */
+#header {
+    background-color: rgba(80, 80, 80, 0.8); /* Gris Acero con opacidad */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+#header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#header nav ul li {
+    margin-right: 20px;
+}
+
+#header nav ul li a {
+    color: rgba(240, 240, 235, 0.9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: none; /* Esconder botón para este diseño */
+}
+
+/* Sección hero */
+#hero {
+    background: linear-gradient(180deg, rgba(172, 11, 24, 0.85), rgba(15, 32, 89, 0.85)); /* Gradiente suave */
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Sección servicios */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(15, 32, 89, 0.85); /* Azul Oscuro con opacidad */
+    border-top: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+    border-bottom: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    color: rgba(243, 186, 73, 0.9); /* Amarillo Dorado con opacidad */
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: rgba(80, 80, 80, 0.8); /* Gris Acero con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    color: rgba(240, 240, 235, 0.95); /* Blanco Crema con opacidad */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Sección testimonios */
+.testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(15, 32, 89, 0.85); /* Azul Oscuro con opacidad */
+    border-top: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+    border-bottom: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    color: rgba(243, 186, 73, 0.9); /* Amarillo Dorado con opacidad */
+    margin-bottom: 40px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial {
+    background-color: rgba(80, 80, 80, 0.8); /* Gris Acero con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    color: rgba(240, 240, 235, 0.95); /* Blanco Crema con opacidad */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Sección contacto */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(15, 32, 89, 0.85); /* Azul Oscuro con opacidad */
+    border-top: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+    border-bottom: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: rgba(243, 186, 73, 0.9); /* Amarillo Dorado con opacidad */
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: rgba(240, 240, 235, 0.95); /* Blanco Crema con opacidad */
+    margin-bottom: 10px;
+}
+
+.social-media img {
+    margin: 0 10px;
+}
+
+/* Sección del mapa */
+.map-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(15, 32, 89, 0.85); /* Azul Oscuro con opacidad */
+    border-top: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+    border-bottom: 1px solid rgba(240, 240, 235, 0.1); /* Línea divisoria muy sutil */
+}
+
+.map-section h2 {
+    font-size: 2.5rem;
+    color: rgba(243, 186, 73, 0.9); /* Amarillo Dorado con opacidad */
+    margin-bottom: 20px;
+}
+
+#map-container {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(180deg, rgba(15, 32, 89, 0.85), rgba(172, 11, 24, 0.85)); /* Gradiente suave */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+footer p {
+    margin: 0;
+}
